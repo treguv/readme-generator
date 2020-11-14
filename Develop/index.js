@@ -1,6 +1,7 @@
 //The required imports
 const fs = require("fs");
 const inquirer = require("inquirer");
+const generateMarkdown = require;
 // array of questions for user
 const questions = [
   {

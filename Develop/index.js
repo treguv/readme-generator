@@ -1,7 +1,8 @@
 //The required imports
 const fs = require("fs");
 const inquirer = require("inquirer");
-const generateMarkdown = require;
+const generateMarkdown = require("./utils/generateMarkdown.js");
+const writeReadMe = require("./utils/writeReadme");
 // array of questions for user
 const questions = [
   {
@@ -83,6 +84,19 @@ const questions = [
     },
   },
   {
+    type: "input",
+    name: "projectContributors",
+    message: "Who contributed to this project?",
+    validate: (input) => {
+      if (input) {
+        return true;
+      } else {
+        console.log("Please enter at least one contributor");
+        return false;
+      }
+    },
+  },
+  {
     type: "list",
     name: "projectLicense",
     message: "What is your project license?",
@@ -126,16 +140,24 @@ const questions = [
 ];
 
 // function to write README file
-//function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  writeReadMe(fileName, data);
+}
 
 // function to initialize program
 const promptUser = () => {
   return inquirer.prompt(questions);
 };
 function init() {
-  promptUser().then((response) => {
-    console.log(response);
-  });
+  promptUser()
+    .then((response) => {
+      console.log(response);
+      return generateMarkdown(response);
+    })
+    .then((generatedMarkup) => {
+      console.log(generatedMarkup);
+      writeToFile("./readme.md", generatedMarkup);
+    });
 }
 
 // function call to initialize program

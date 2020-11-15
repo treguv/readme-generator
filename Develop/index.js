@@ -151,20 +151,3 @@ function init() {
 
 // function call to initialize program
 init();
-
-// questions
-/*
- Project Title 
- description
- installation instructions
- usage information
- contribution guidelines
- Test instructions
-choose license from list
-
-github username
-email
-
-Make functioning links
-
-*/

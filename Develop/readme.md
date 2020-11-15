@@ -1,8 +1,8 @@
-# This Is A Cool Project
+# This is a cool title
   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
   
   ## Description
-  This is a cool project description
+  This is a cool project. please use it
   
   ## Table Of Contents
   1. [Installation](#installation)
@@ -13,15 +13,15 @@
   6. [Questions](#Questions)
   7. [Credits](#Credits)
   ## Installation
-  Clone onto machiene, and run using node 
+  clone onto local computer 
   ## Usage
   undefined
   ## License
   This application is covered under MIT
   ## Contributing
-  This project can be contributed to by anyone for reason
+  N/A
   ## Tests 
-  Download, run from console
+  clone and run node index to verify it is working
   ## Questions
   [Github:](http://github.com/treguv)
   With additional questions contact me via email: treguv@uw.edu

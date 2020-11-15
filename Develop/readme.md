@@ -1,28 +1,34 @@
-# szdi fhsjdkfh szdjkghzejkgshjkh 
+# This is a awesome title
   ## Description
-  dfigh dkjfhdjkfg hxdjkrg hrkgjd h
+  this is an awesome description 
   
   ## Table Of Contents
-  Add stuff
+  [Installation])(#installation)
+  [Usage])(#Usage)
+  [License])(#License)
+  [Contributing])(#Contributing)
+  [Tests])(#Tests)
+  [Questions])(#Questions)
+  [Credits])(#Credits)
 
   ## Installation
-  dfio ghdfj ghdgj
+  fgh udfghxkjgh dkjfhxjkcbhzskjflkghaeiulthsdlvfhxdflkjgnjklhgjklshnxjkfghlskjc  ufghghg
 
   ## Usage
   undefined
   
-  ## Contributing
-  dfgh dfjk ghfjgkh
-
-  ## Tests 
-  gdilfg hdjlkfghdjfkg
-
-  ## Credits
-  dkjfg hdjk
-
   ## License
   This application is covered under GNU AGPLv3
+  
+  ## Contributing
+  hf ug hKLEHFo;h df
+
+  ## Tests 
+  dufh gkhrgkjzdfhgjkaeghejrghxdf
 
   ## Questions
   [Github:](http://github.com/treguv)
-  With additional questions contact me via email: jj@gmail.com
+  With additional questions contact me via email: treguv@uw.edu
+
+  ## Credits
+  dfuhgkezrht kjrgh djkg

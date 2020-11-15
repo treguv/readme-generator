@@ -5,7 +5,13 @@ function generateMarkdown(data) {
   ${data.projectDescription}
   
   ## Table Of Contents
-  Add stuff
+  [Installation])(#installation)
+  [Usage])(#Usage)
+  [License])(#License)
+  [Contributing])(#Contributing)
+  [Tests])(#Tests)
+  [Questions])(#Questions)
+  [Credits])(#Credits)
 
   ## Installation
   ${data.projectInstallInstructions}
@@ -13,21 +19,21 @@ function generateMarkdown(data) {
   ## Usage
   ${data.projectUsage}
   
+  ## License
+  This application is covered under ${data.projectLicense}
+  
   ## Contributing
   ${data.projectContribution}
 
   ## Tests 
   ${data.projectTestInstructions}
 
-  ## Credits
-  ${data.projectContributors}
-
-  ## License
-  This application is covered under ${data.projectLicense}
-
   ## Questions
   [Github:](http://github.com/${data.userGithub})
   With additional questions contact me via email: ${data.userEmail}
+
+  ## Credits
+  ${data.projectContributors}
 `;
 }
 

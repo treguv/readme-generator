@@ -1,6 +1,11 @@
 // function to generate markdown for README
+function generateLicense(license) {
+  return `[![${license} license](https://img.shields.io/badge/License-${license}-blue.svg)](https://lbesson.mit-license.org/)
+  `;
+}
 function generateMarkdown(data) {
   return `# ${data.projectTitle}
+  ${generateLicense(data.projectLicense)}
   ## Description
   ${data.projectDescription}
   
@@ -12,38 +17,23 @@ function generateMarkdown(data) {
   5. [Tests](#Tests)
   6. [Questions](#Questions)
   7. [Credits](#Credits)
-
   ## Installation
-  <a name = "installation">${data.projectInstallInstructions} </a>
-
+  ${data.projectInstallInstructions} 
   ## Usage
-  <a name = "Usage">${data.projectUsage}</a>
-  
+  ${data.projectUsage}
   ## License
-  <a name = "License">
   This application is covered under ${data.projectLicense}
-  </a>
-  
   ## Contributing
-  <a name = "Contributing">
   ${data.projectContribution}
-  </a>
-
   ## Tests 
-  <a name = "Tests">
   ${data.projectTestInstructions}
-  </a>
-
   ## Questions
-  <a name = "Questions">
   [Github:](http://github.com/${data.userGithub})
   With additional questions contact me via email: ${data.userEmail}
-  </a>
-
   ## Credits
-  <a name = "Credits">
+
+
   ${data.projectContributors}
-  </a>
 `;
 }
 

@@ -100,16 +100,7 @@ const questions = [
     type: "list",
     name: "projectLicense",
     message: "What is your project license?",
-    choices: [
-      "GNU AGPLv3",
-      "GNU GPLv3",
-      "GNU LGPLv3",
-      "Mozilla Public License 2.0",
-      "Apache License 2.0",
-      "MIT License",
-      "Boost Software License 1.0",
-      "The Unlicense",
-    ],
+    choices: ["MIT", "GNU", "LaTex", "ISC"],
   },
   {
     type: "input",
@@ -151,11 +142,9 @@ const promptUser = () => {
 function init() {
   promptUser()
     .then((response) => {
-      console.log(response);
       return generateMarkdown(response);
     })
     .then((generatedMarkup) => {
-      console.log(generatedMarkup);
       writeToFile("./readme.md", generatedMarkup);
     });
 }

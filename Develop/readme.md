@@ -1,6 +1,8 @@
-# ksdhfkdfghuifdghiuzdfgh  zdf fd  z  osidhxdg
+# This Is A Cool Project
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+  
   ## Description
-  dfoi h ggzdoifg 
+  This is a cool project description
   
   ## Table Of Contents
   1. [Installation](#installation)
@@ -10,35 +12,20 @@
   5. [Tests](#Tests)
   6. [Questions](#Questions)
   7. [Credits](#Credits)
-
   ## Installation
-  <a name = "installation"> zdpfigzdsgdfuo ghszdug dzf gzdfg fdg zdf gf \ </a>
-
+  Clone onto machiene, and run using node 
   ## Usage
-  <a name = "Usage">undefined</a>
-  
+  undefined
   ## License
-  <a name = "License">
-  This application is covered under GNU AGPLv3
-  </a>
-  
+  This application is covered under MIT
   ## Contributing
-  <a name = "Contributing">
-   zdfg hzdffg
-  </a>
-
+  This project can be contributed to by anyone for reason
   ## Tests 
-  <a name = "Tests">
-  dzf figg
-  </a>
-
+  Download, run from console
   ## Questions
-  <a name = "Questions">
-  [Github:](http://github.com/sdigh SDgih f )
-  With additional questions contact me via email:  fdih
-  </a>
-
+  [Github:](http://github.com/treguv)
+  With additional questions contact me via email: treguv@uw.edu
   ## Credits
-  <a name = "Credits">
-  zfdug 
-  </a>
+
+
+  Vlad T
